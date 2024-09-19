@@ -7,6 +7,115 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!-- Главный хэдер -->
+    <header class="main-header">
+        <div class="main-header__wrapper">
+            
+            <!-- Навигация -->
+            <nav  class="main__nav main-header__main-nav">
+                <!-- Логотип -->
+                <a class="main-nav__logo" href="">
+                    <img src="icons/logo-index.svg" width="371" height="155" alt="Логотип барбершопа Бородинский">
+                </a>
+                
+                <!-- Основное меню -->
+                <ul class="main-nav__menu">
+                    <li class="main-nav__menu-item"><a href="blank.html">ИНФОРМАЦИЯ</a></li>
+                    <li class="main-nav__menu-item"><a href="blank.html">НОВОСТИ</a></li>
+                    <li class="main-nav__menu-item"><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+                    <li class="main-nav__menu-item"><a href="catalog.html">МАГАЗИН</a></li>
+                    <li class="main-nav__menu-item"><a href="#contacts">КОНТАКТЫ</a></li>
+                </ul> 
+
+                <!-- Меню пользователя -->
+                <ul class="man-nav__menu-user">
+                    <li class="main-nav__user-item"><a href="#">Вход</a></li>
+                    <li class="main-nav__user-item"><a href="#">Пользователь</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <h1 class="main-title">Барбершоп "Бородинский"</h1>
+        
+        <!-- Первая секция "Быстро-Круто-Дорого" -->
+        <section class="section1">
+            <div class="section1__wrapper">
+                <h2 class="section1__title">Преимущества</h2>
+                
+                <!-- Список преимуществ -->
+                <ul class="section2-items">
+                    <li class="section1__items">
+                        <p class="section1__items-title">БЫСТРО</p>
+                        <p class="section1__items-text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+                    </li>
+                    <li class="section1__items">
+                        <p class="section1__items-title">КРУТО</p>
+                        <p class="section1__items-text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                            МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+                    </li>
+                    <li class="section1__items">
+                        <p class="section1__items-title">ДОРОГО</p>
+                        <p class="section1__items-text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Вторая секция "Новости-Фотогалерея" -->
+        <section class="section2">
+            <div class="section2__wrapper">
+
+                <!-- Блок новостей -->
+                <div class="section2__news">
+                    <h2 class="section2__news-title">НОВОСТИ</h2>
+                    <p class="section2__news-text">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                    <p class="section2__news-text">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                    <p class="section2__news-date">18 января</p>
+                    <button class="section__news-btn button">ВСЕ НОВОСТИ</button>
+                </div>
+
+                <!-- Блок фотогалерии -->
+                <div class="section2__gallery gallery">
+                    <h3 class="gallery__title">ФОТОГАЛЕРЕЯ</h3>
+                    <div class="gallery__image">
+                        <img src="" alt="Фото барбершопа Бородинский">
+                    </div>
+                    <button class="gallery__btn-prev button">НАЗАД</button>
+                    <button class="gallery__btn-next button">ВПЕРЕД</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Третья секция "Контактная информация" -->
+        <section class="section3">
+            <div class="section3__wrapper">
+
+                <!-- Блок контактов -->
+                <div class="section3__contacts contacts">
+                    <h2 class="contacts__title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+                    <p class="contacts__adress">БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+                        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+                        ТЕЛЕФОН: +7 (812) 666-02-66</p>
+                    <p class="contacts__time">
+                        ВРЕМЯ РАБОТЫ: <br>
+                        ПН—ПТ: С 10:00 ДО 22:00 <br>
+                        СБ—ВС: С 10:00 ДО 19:00 <br>
+                    </p>
+                    <button class="contacts__btn-map button">КАК ПРОЕХАТЬ</button>
+                    <button class="gallery__btn-feedback button">ОБРАТНАЯ СВЯЗЬ</button>
+                </div>
+
+                <!-- Блок записи на стрижку -->
+                <div class="section3__zapis">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
